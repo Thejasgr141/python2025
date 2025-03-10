@@ -1,0 +1,4 @@
+#temp coverstion
+faren=float(input("temp in faren"))
+celsius=5/9*(faren-32)
+print(celsius)
