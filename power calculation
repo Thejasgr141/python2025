@@ -1,0 +1,4 @@
+base=float(input("Enter the base number "))
+exponent=float(input("Enter the exponents"))
+result=base**exponent
+print("base raised to the power of exponent",result)
