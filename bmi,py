@@ -1,0 +1,5 @@
+#BMI calucaltion
+weight= int(input("Enter your weight"))
+height=float(input("Enter your height"))
+bmi=weight/(height*height)
+print("bmi value is",bmi)
