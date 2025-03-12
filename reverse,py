@@ -1,0 +1,16 @@
+#print reverse number
+def print_reverse_numbers(n):
+
+  if n<= 0:
+    print("Enter a positive interger.")
+    return
+  
+  while n > 0:
+    print(n, end="  ")
+    n -=1
+  print()
+try:
+  num = int(input("Enter a positive integer:"))
+  print_reverse_numbers(num)
+except ValueError:
+  print("invalid input.enter a positive integer.")
